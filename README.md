@@ -2,5 +2,5 @@
 
 ```sh
 # make run
-docker run -it --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp elixir elixir hello/hello.exs
+docker run -it --rm -v $PWD:/app -w /app elixir elixir hello/hello.exs
 ```
